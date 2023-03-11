@@ -1,0 +1,30 @@
+#middle {
+    top: 64px;
+    bottom: 0px;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%
+}
+
+#middle-offset {
+  position: relative;
+  height: 100%;
+}
+
+#left, #right {
+    overflow-y: scroll
+}
+#left {
+    background: #B0B2E2;
+    width: 25%;
+    height: 100%
+}
+#right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 74%;
+    bottom: 0;
+}
+
+
