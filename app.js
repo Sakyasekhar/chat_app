@@ -12,7 +12,7 @@ const io = new Server(server)
 
 const PORT = process.env.PORT || 3030;
 
-const dbURI = "mongodb+srv://Sakyasekhar:sakyasekhar@chatapp.pjjecjh.mongodb.net/?retryWrites=true&w=majority"; 
+const dbURI = "mongodb+srv://Sakyasekhar:sakyasekhar@chatapp.mlveze6.mongodb.net/?retryWrites=true&w=majority"; 
 
 mongoose.set('strictQuery', false);
 
