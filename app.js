@@ -12,6 +12,8 @@ const io = new Server(server)
 
 const dbURI = "mongodb+srv://Sakyasekhar:sakyasekhar@chatapp.pjjecjh.mongodb.net/?retryWrites=true&w=majority"; 
 
+mongoose.set('strictQuery', false);
+
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => server.listen(3000))
   .catch(err => console.log(err));
