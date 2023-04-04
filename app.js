@@ -12,6 +12,8 @@ const io = new Server(server)
 
 const PORT = process.env.PORT || 3030;
 
+// const PORT = 3000;
+
 const dbURI = "mongodb+srv://Sakyasekhar:sakyasekhar@chatapp.mlveze6.mongodb.net/?retryWrites=true&w=majority"; 
 
 mongoose.set('strictQuery', false);
