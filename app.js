@@ -10,12 +10,14 @@ const server = http.createServer(app)
 const {Server} = require("socket.io")
 const io = new Server(server)
 
+const PORT = process.env.PORT || 3030;
+
 const dbURI = "mongodb+srv://Sakyasekhar:sakyasekhar@chatapp.pjjecjh.mongodb.net/?retryWrites=true&w=majority"; 
 
 mongoose.set('strictQuery', false);
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(result => server.listen(3000))
+  .then(result => server.listen(PORT))
   .catch(err => console.log(err));
 
 app.set('view engine','ejs');
