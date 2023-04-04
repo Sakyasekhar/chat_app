@@ -10,7 +10,7 @@ const server = http.createServer(app)
 const {Server} = require("socket.io")
 const io = new Server(server)
 
-const dbURI = "mongodb://localhost:27017";
+const dbURI = "mongodb+srv://Sakyasekhar:sakyasekhar@chatapp.pjjecjh.mongodb.net/?retryWrites=true&w=majority"; 
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => server.listen(3000))
