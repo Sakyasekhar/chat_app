@@ -9,6 +9,7 @@ This is a simple web chat application built using Node.js,Express,Tailwindcss,Mo
 
 
 Usage:
+
 To use the web chat application, follow these steps:
 
 Enter your name and roomname
@@ -17,8 +18,11 @@ Type your message in the text input field and hit "Enter" to send the message to
 Chat with other users in real-time by sharing the roomname with them
 
 
+
 Screenshots:
+
 Here are some screenshots of the web chat application:
+
 
 
 Known Issues:
