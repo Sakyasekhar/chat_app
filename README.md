@@ -6,8 +6,9 @@ This is a simple web chat application built using Node.js,Express,Tailwindcss,Mo
 
 
 
-Usage
 
+
+Usage:
 To use the web chat application, follow these steps:
 
 Enter your name and roomname
@@ -16,11 +17,9 @@ Type your message in the text input field and hit "Enter" to send the message to
 Chat with other users in real-time by sharing the roomname with them
 
 
-Screenshots
-
+Screenshots:
 Here are some screenshots of the web chat application:
 
 
-Known Issues
-
+Known Issues:
 On the left side of web page,usernames of people who are in online is displayed in real-time.Here the issue is when a user left the webpage,it will be not reflecteed in the other users webpage in real-time but it gets updated if they refresh their webpage
